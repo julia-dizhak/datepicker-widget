@@ -52,7 +52,7 @@
     .header {
       background: #f4e4ca;
       background: -moz-linear-gradient(center top, #f4e4ca 1%, #FFCC99 100%);
-      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from #f4e4ca, to #FFCC99);
+      background: -webkit-gradient(linear, left top, left bottom, from(#f4e4ca), to(#FFCC99));
       background: -webkit-linear-gradient(center top, #f4e4ca 1%, #FFCC99 100%);
       background: -ms-linear-gradient(center top, #f4e4ca 1%, #FFCC99 100%);
       background: -o-linear-gradient(center top, #f4e4ca 1%, #FFCC99 100%);
