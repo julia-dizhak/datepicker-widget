@@ -1,0 +1,175 @@
+ #wrap {
+      margin: 10px auto;
+
+      font:13px 'Helvetica',Arial,Sans-serif;
+      background: #fff;
+
+      color: #31393c;
+      
+      width: 200px  
+    }
+    #input {
+      border: 1px solid #b3b3b3;
+      border-radius: 6px;
+      
+      box-shadow: 0 0 3px rgba(0,0,0,.3) inset;
+
+      position: relative;
+
+      margin-bottom: 4px;
+      padding: 4px 0;
+    }
+    #input input {
+      border: 0;
+      padding: 0 7px;
+
+      width: 160px;
+    }
+    #input i {
+      position: absolute;
+
+      top: 6px;
+      right: 7px;
+
+      width: 13px;
+      height: 16px;
+
+      background: url('https://s3.amazonaws.com/calendar-widget/icon-calendar.jpg') left top no-repeat;
+      cursor: pointer;
+    }
+    #calendar {
+      display: none;
+    }
+    .box {
+      border: 1px solid #b3b3b3;
+      border-radius: 6px;
+      box-shadow: 0 0 3px rgba(0,0,0,.3) inset;
+
+      
+      padding: 5px 7px;
+      font-size: 12px;
+    }
+    .header {
+      background: #f4e4ca; /*f4e8d2*/;
+      box-shadow: 0 0 1px rgba(0,0,0,.3) inset;
+      border-radius: 3px;
+      
+      margin: 0 0 5px 0;
+
+      position: relative;   
+
+      text-align: center;  
+    }
+    .arrow-left,
+    .arrow-right {
+      position: absolute;
+      content: '';
+      width: 8px;
+      top: 6px;
+
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+
+      cursor: pointer;
+    }
+    .arrow-left {
+      left: 0;
+
+      border-right: 6px solid #2d2920;
+    }
+    .arrow-right {
+      right: 0;
+
+      border-left: 6px solid #2d2920;
+    }
+    .header h2 {
+      font-weight:normal;
+      text-align: center;
+
+      font-size: 13px;  
+      margin: 0;
+      padding: 6px 0;
+
+      display: inline-block;
+      vertical-align: middle;
+
+      cursor: pointer;
+    }  
+    .week {
+      margin-bottom: 1px;
+    }
+    .content span,
+    .week span {
+
+      display: block;
+      float: left;   
+
+      text-align: center;
+      cursor: pointer;
+    }
+    .days .content span,
+    .week span {
+      padding: 3px 2px;
+      width: 22.2px;
+      height: 13px;
+    }
+    .months span {
+      width: 30%;
+      margin: 2px;
+      padding: 5px 0;
+
+      background: #fcfcfc;
+
+      border: 1px solid #aeaeae;
+
+    }
+    .years span {
+      width: 16.5%;
+      margin: 2px;
+      padding: 5px 0;
+
+      background: #fcfcfc;
+
+      border: 1px solid #aeaeae;
+    }
+    .content {
+      color: #7f868c;
+      margin-bottom: 140px;
+    }
+    .days .content span:hover {
+      cursor: default;
+    }
+    .days .content span[data-day-id]:hover {
+      outline: 1px solid #dfc382;
+      color:#db7141;
+      cursor: pointer;
+    }
+    .years .content span:hover {
+      border: 1px solid #dfc382;
+      color:#db7141;
+      cursor: pointer;
+    }
+
+    .months .content span:hover {
+      border: 1px solid #dfc382;
+      color:#db7141;
+    }
+    .months .content {
+      margin-bottom: 135px;
+    }
+     
+    .box button {
+      border-radius: 3px;
+      border: 1px solid #b1a5b1;
+      background: #fff;
+      margin: 0 auto 5px;
+
+      color: #208e9b;
+
+      display: block;
+
+      padding: 1px 5px;
+      text-transform: capitalize;
+      cursor: pointer;
+      
+    }
